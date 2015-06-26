@@ -54,16 +54,6 @@ int main(int argc, char** argv){
 			//fileName = malloc(FILENAME_MAX); //max size of filename, defined in stdio.h
 			appendString = optarg;
 	        break;  
-	      case '?':
-	        if (optopt == 'f' || optopt == 'b')
-	          fprintf (stderr, "Option -%c requires an argument.\n", optopt);
-	        else if (isprint (optopt))
-	          fprintf (stderr, "Unknown option `-%c'.\n", optopt);
-	        else
-	          fprintf (stderr,
-	                   "Unknown option character `\\x%x'.\n",
-	                   optopt);
-	        return 1;
 	      default:
 	        abort ();
      	 }
@@ -76,7 +66,7 @@ int main(int argc, char** argv){
 		return 1;
 	}
 	
-	buf = malloc(BLOCK_SIZE);
+	buf = (char*) malloc(BLOCK_SIZE);
 	clock_gettime(CLOCK_REALTIME, &start); //Get initial time
 	
 	//Open File:
