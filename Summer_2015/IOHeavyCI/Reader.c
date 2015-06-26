@@ -1,6 +1,6 @@
-// This program times the reading of files
+// This program times the average read speed of files
 // Bobak Hashemi
-// UCSD -- June 25 2015
+// UCSD -- June 26 2015
 //
 // 
 
@@ -9,11 +9,13 @@
 #include <time.h>
 #include <unistd.h>
 #include <getopt.h> 
-#include <fcntl.h>
+#include <sys/stat.h>
 
 int main(int argc, char** argv){
 	short BLOCK_SIZE = 1024;
 	char *buf, *fileName, *appendString;
+	struct stat *fileStats;
+	fileStats = (struct stat *) malloc(sizeof(struct stat));
 	appendString = (char*) malloc(1024);
 	appendString = "";
 	FILE* fp;
@@ -86,9 +88,13 @@ int main(int argc, char** argv){
 	{
 		//do nothing, just read file into memory.
 	}
-	runTime = (clock() - runTime); // calculate runtime 
+	runTime = (clock() - runTime); // calculate runtime
 	
-	printf("%s    %.3e    %i\n", appendString, runTime/((float)CLOCKS_PER_SEC), BLOCK_SIZE);
+	//calculate average velocity of read
+	fstat(fileno(fp), fileStats);
+	float delta_time = runTime/((float)CLOCKS_PER_SEC);
+	
+	printf("%s    %.3e    %i\n", appendString, ((float) fileStats->st_size)/delta_time, BLOCK_SIZE);
 	
 	return 1;
 }
