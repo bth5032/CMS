@@ -82,13 +82,14 @@ int main(int argc, char** argv){
 	}
 	clock_gettime(CLOCK_REALTIME, &end); // get final time
 	//calculate time difference
-	uint64_t diff;
+	float diff;
 	diff = 1000000000*(end.tv_sec - start.tv_sec) + end.tv_nsec - start.tv_nsec;
 	
 	//calculate average velocity of read
 	fstat(fileno(fp), fileStats);
+	float velocity = ((1000000000*fileStats.st_size) / (float) diff) 
 	
-	printf("%s    %llu    %i\n", appendString, (long long unsigned int) diff, BLOCK_SIZE);
+	printf("%s    %.5e    %i\n", appendString, velocity, BLOCK_SIZE);
 	
 	return 1;
 }

@@ -35,7 +35,7 @@ void make_histograms()
 	t->Draw("Velocity:BufferSize", "ConcurrentReads==1");
 	
 	
-	//In Second Slot have Time vs. Buffer for 3 Concurrent Reads
+	/*//In Second Slot have Time vs. Buffer for 3 Concurrent Reads
 	c->cd(2);
 	t->SetMarkerStyle(3);
 	t->SetMarkerColor(2);
@@ -52,7 +52,7 @@ void make_histograms()
 	t->SetMarkerStyle(4);
 	t->SetMarkerColor(2);
 	t->Draw("Velocity:BufferSize", "ConcurrentReads==10");
-	
+	*/
 	
 	c->cd(0);
 	gPad->SaveAs("xxx.png");
