@@ -12,7 +12,7 @@
 #include <sys/stat.h>
 
 int main(int argc, char** argv){
-	short BLOCK_SIZE = 1024;
+	int BLOCK_SIZE = 1024;
 	char *buf, *fileName, *appendString;
 	struct stat *fileStats;
 	fileStats = (struct stat *) malloc(sizeof(struct stat));
