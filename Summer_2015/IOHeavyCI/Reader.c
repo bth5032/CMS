@@ -88,7 +88,7 @@ int main(int argc, char** argv){
 	}
 	runTime = (clock() - runTime); // calculate runtime 
 	
-	printf("%s:%.3e:%i\n", appendString, runTime/((float)CLOCKS_PER_SEC), BLOCK_SIZE);
+	printf("%s    %.3e    %i\n", appendString, runTime/((float)CLOCKS_PER_SEC), BLOCK_SIZE);
 	
 	return 1;
 }
