@@ -83,13 +83,13 @@ int main(int argc, char** argv){
 	clock_gettime(CLOCK_REALTIME, &end); // get final time
 	//calculate time difference
 	float diff;
-	diff = 1000000000*(end.tv_sec - start.tv_sec) + end.tv_nsec - start.tv_nsec;
+	diff = (end.tv_sec - start.tv_sec) + ((end.tv_nsec - start.tv_nsec)/((float)1000000000));
 	
 	//calculate average velocity of read
 	fstat(fileno(fp), fileStats);
-	float velocity = ((1000000000*fileStats.st_size) / (float) diff) 
-	
-	printf("%s    %.5e    %i\n", appendString, velocity, BLOCK_SIZE);
+	float velocity = (fileStats->st_size) /((float) diff);
+	float MBps_velocity = velocity/((float) 1000000);
+	printf("%s    %.5e    %i\n", appendString, MBps_velocity, BLOCK_SIZE);
 	
 	return 1;
 }
