@@ -22,7 +22,7 @@ void make_histograms()
 	//pull in data
 	TTree *t;
 	t = new TTree(); 
-	t->ReadFile("output2");
+	t->ReadFile("output");
 		
 	//Initialize Canvas
 	TCanvas *c = new TCanvas("c1", "Read Times on Local Disk for CMS3 Files", 1920, 1080);
