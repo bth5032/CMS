@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <time.h>
 #include <unistd.h>
 #include <getopt.h> 
@@ -15,6 +16,7 @@ int main(int argc, char** argv){
 	int BLOCK_SIZE = 1024;
 	char *buf, *fileName, *appendString;
 	struct stat *fileStats;
+	struct timespec start, end;
 	fileStats = (struct stat *) malloc(sizeof(struct stat));
 	appendString = (char*) malloc(1024);
 	appendString = "";
@@ -75,7 +77,7 @@ int main(int argc, char** argv){
 	}
 	
 	buf = malloc(BLOCK_SIZE);
-	clock_t runTime = clock(); //Get initial time
+	clock_gettime(CLOCK_REALTIME, &start); //Get initial time
 	
 	//Open File:
 	if((fp = fopen(fileName, "r")) == NULL)
@@ -88,13 +90,15 @@ int main(int argc, char** argv){
 	{
 		//do nothing, just read file into memory.
 	}
-	runTime = (clock() - runTime); // calculate runtime
+	clock_gettime(CLOCK_REALTIME, &end); // get final time
+	//calculate time difference
+	uint64_t diff;
+	diff = 1000000000*(end.tv_sec - start.tv_sec) + end.tv_nsec - start.tv_nsec;
 	
 	//calculate average velocity of read
 	fstat(fileno(fp), fileStats);
-	float delta_time = runTime/((float)CLOCKS_PER_SEC);
 	
-	printf("%s    %.3e    %i\n", appendString, ((float) fileStats->st_size)/delta_time, BLOCK_SIZE);
+	printf("%s    %llu    %i\n", appendString, (long long unsigned int) diff, BLOCK_SIZE);
 	
 	return 1;
 }
