@@ -17,13 +17,13 @@
 
 const short MaxNN = 6;
 */
-void make_histograms(TString name)
+void make_histograms(TString data_file, TString plot_name)
 {
 	//TApplication program = new TInt 
 	//pull in data
 	TTree *t;
 	t = new TTree(); 
-	t->ReadFile("run2.output");
+	t->ReadFile(data_file);
 	//TString name = "run2.png";
 		
 	//Initialize Canvas
@@ -58,7 +58,7 @@ void make_histograms(TString name)
 	
 	c->cd(0);
 	
-	gPad->SaveAs(name);
+	gPad->SaveAs(plot_name);
 }
 
 /*float calculateVelocities(TH2F hist){

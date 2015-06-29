@@ -1,1 +1,4 @@
-Run1 -- Didn't take into account the size of the file that we were reading. 
+Run 1 -- Didn't take into account the size of the file that we were reading. 
+Run 2 -- Recorded read velocity, but didn't have the files trimmed to the same size. 
+Run 3 -- No write to disk going on, all files are 2 GB
+Run 4 -- Writing output from /dev/urandom to disk while doing the read.
