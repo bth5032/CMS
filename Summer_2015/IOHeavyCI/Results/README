@@ -1,4 +1,6 @@
 Run 1 -- Didn't take into account the size of the file that we were reading. 
 Run 2 -- Recorded read velocity, but didn't have the files trimmed to the same size. 
-Run 3 -- No write to disk going on, all files are 2 GB
-Run 4 -- Writing output from /dev/urandom to disk while doing the read. The write speed was ~ 10 MB/s
+Run 3 -- No write to disk going on, all files are 2 GB.
+Run 4 -- Writing output from /dev/urandom to disk while doing the read. The write speed was ~ 10 MB/s.
+Run 5 -- We read from cache, the files are loaded into ram first then we do the reads. There was no writing to disk (that I controlled). 
+Run 6 -- Read comes from the Hadoop FUSE mounted filesystem. All servers which hosted hadoop blocks had their cache cleared before the read.
