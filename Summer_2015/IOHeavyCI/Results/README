@@ -4,3 +4,5 @@ Run 3 -- No write to disk going on, all files are 2 GB.
 Run 4 -- Writing output from /dev/urandom to disk while doing the read. The write speed was ~ 10 MB/s.
 Run 5 -- We read from cache, the files are loaded into ram first then we do the reads. There was no writing to disk (that I controlled). 
 Run 6 -- Read comes from the Hadoop FUSE mounted filesystem. All servers which hosted hadoop blocks had their cache cleared before the read.
+			This run ended up breaking because of trouble dropping the cache of so many machines at once. We only got 2 data points.
+Run 7 -- Read comes from Hadoop FUSE mounted filesystem, but there is no attempt made at cache dropping.
