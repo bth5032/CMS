@@ -9,3 +9,4 @@ Run 7 -- Read comes from Hadoop FUSE mounted filesystem, but there is no attempt
 Run 8 -- Read through HDFS C API, no attempt at dropping caches, no writes
 Run 9 -- Read on local disk (cabinet-8-8-0, all others were on UAF-4) with each file on it's own disk. I.E. even when multiple files were being read
 			there was only a single file being read from any disk at once. This is more a test of the bus speed than anything else. 
+Run 10 -- Another trial equivalent to run 9. 
