@@ -6,3 +6,4 @@ Run 5 -- We read from cache, the files are loaded into ram first then we do the 
 Run 6 -- Read comes from the Hadoop FUSE mounted filesystem. All servers which hosted hadoop blocks had their cache cleared before the read.
 			This run ended up breaking because of trouble dropping the cache of so many machines at once. We only got 2 data points.
 Run 7 -- Read comes from Hadoop FUSE mounted filesystem, but there is no attempt made at cache dropping.
+Run 8 -- Read through HDFS C API, no attempt at dropping caches, no writes
