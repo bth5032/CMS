@@ -17,7 +17,7 @@
 
 const short MaxNN = 6;
 */
-void make_histograms(TString data_file, TString plot_name)
+void make_histograms(TString data_file, TString plot_name, TString header)
 {
 	//TApplication program = new TInt 
 	//pull in data
@@ -25,7 +25,10 @@ void make_histograms(TString data_file, TString plot_name)
 	t->ReadFile(data_file);
 	
 	//TString name = "run2.png";
-	TCanvas *c = new TCanvas("c1", "Read Velocity on Local Disk for CMS3 Files", 1920, 1080);
+	TCanvas *BG = new TCanvas("c1", "Read Velocity on Local Disk for CMS3 Files", 1920, 1080);
+	BG->cd();
+	TPad *c = new TPad("MainPad", "My main pad", 0, 0, 1, 0.9);
+	c->Draw();
 	c->Divide(2,2);
 
 	//In first slot have Time vs. Buffer for 1 Concurrent Read
@@ -76,6 +79,12 @@ void make_histograms(TString data_file, TString plot_name)
 	//Initialize Canvas
 	
 	c->cd(0);
+	c->Draw();
+	
+	BG->cd();
+	TText *title = new TText(.5,.95, header);
+	title->SetTextAlign(22);
+	title->Draw();
 	
 	gPad->SaveAs(plot_name);
 }
