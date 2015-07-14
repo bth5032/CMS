@@ -1,0 +1,14 @@
+universe = grid
+grid_resource = condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619
+x509userproxy = /tmp/x509up_u31589
+
+output = out.$(Process)
+#error  = err.$(Process)
+#log    = log.$(Process)
+
+executable = myscript.sh
+#arguments  = 
+
++IOSlot = True
+
+queue 200
