@@ -1,0 +1,13 @@
+for server in cabinet-7-7-0.t2.ucsd.edu
+cabinet-7-7-10.t2.ucsd.edu
+cabinet-7-7-11.t2.ucsd.edu
+cabinet-7-7-16.t2.ucsd.edu
+cabinet-7-7-17.t2.ucsd.edu
+cabinet-7-7-19.t2.ucsd.edu
+cabinet-7-7-3.t2.ucsd.edu
+cabinet-7-7-4.t2.ucsd.edu
+cabinet-7-7-5.t2.ucsd.edu
+cabinet-7-7-6.t2.ucsd.edu
+cabinet-7-7-7.t2.ucsd.edu
+cabinet-7-7-8.t2.ucsd.edu
+cabinet-7-7-9.t2.ucsd.edu; do ssh -t cabinet-7-7-11.t2.ucsd.edu /data3/xrootd/datacopy.sh; done
