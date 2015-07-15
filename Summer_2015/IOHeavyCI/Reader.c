@@ -1,13 +1,17 @@
-// This program times the average read speed of files
+// This program measures the average read speed of files
+// and outputs the read time in a nice tabular format.
+// It includes the ability to add arbitrary appendable
+// text to the output which makes processing the output
+// much more convenient.
 // Bobak Hashemi
 // UCSD -- June 26 2015
 //
-// 
+// Be sure to compile with -lrt to get clock_gettime()
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <time.h>
+#include <time.h> 
 #include <unistd.h>
 #include <getopt.h> 
 #include <sys/stat.h>
