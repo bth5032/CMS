@@ -10,7 +10,7 @@ output = out.$(Process)
 #error  = err.$(Process)
 #log    = log.$(Process)
 
-executable = data_generator.sh
+executable = submit_file.sh
 #arguments  = 
 
 +IOSlot = True
