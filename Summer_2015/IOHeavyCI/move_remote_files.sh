@@ -17,6 +17,11 @@ cabinet-7-7-6.t2.ucsd.edu
 cabinet-7-7-7.t2.ucsd.edu
 cabinet-7-7-9.t2.ucsd.edu"
 
-for i in $SERVER_LIST; do scp datacopy.sh $i:/data3/xrootd; done
+## First move the files over:
+#for i in $SERVER_LIST; do scp datacopy.sh $i:/data3/xrootd; done
 
-for server in $SERVER_LIST; do echo ssh -t $server /data3/xrootd/datacopy.sh ; done
+## Then run script
+for server in $SERVER_LIST 
+do 
+	ssh -t $server /data3/xrootd/datacopy.sh 
+done
