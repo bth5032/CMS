@@ -1,20 +1,26 @@
-# This script will print out the files which contain real test data or ignored
-# test data (i.e. the output of jobs which did not land on slot 33) depending
-# on command line arguments. If given "active" as the first arg, you get the 
-# slot 33 results. If given "print" as the second argument, it prints the 
-# contents of the file.
+# This script probes the output of submit_file.sh
+# passing "ignored" will read files which did not 
+# land on slot 33, whereas  
 
-if [ $1 == "active" ]
+lineOne="ConcurrentReads:CondorSlot:VelocityMBps:BufferSize"
+ 
+if [[ $1 == "ignored" ]]
 then 
-	for i in out* 
-	do 
-		if [ "`head -n1 $i`" == "ConcurrentReads:CondorSlot:VelocityMBps:BufferSize" ]
-		then
-			echo "file: " $i
-			if [ $2 == "print" ]
-			then
-				cat $i
-			fi
-		fi
-	done
+	lineOne="--Ignored Slot--"
+	echo "Printing Ignored Data Files"
+else
+	echo "Printing Slot 33 Active Data Files"
 fi
+
+for i in out* 
+do 
+	if [[ "`head -n1 $i`" == $lineOne ]]
+	then
+		echo "file: " $i
+		if [[ $2 == "print" ]]
+		then
+			cat $i
+		fi
+	fi
+done
+
