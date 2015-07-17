@@ -14,7 +14,7 @@ fi
 
 for i in out* 
 do 
-	if [[ "`head -n1 $i`" == $lineOne ]]
+	if [[ "`head -n1 $i`" == $lineOne ]] || [[ "`head -n2 $i | tail -n1`" == $lineOne ]]
 	then
 		echo "file: " $i
 		if [[ $2 == "print" ]]
