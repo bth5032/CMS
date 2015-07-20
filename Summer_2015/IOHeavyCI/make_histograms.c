@@ -96,7 +96,7 @@ void make_histograms(TString data_file, TString plot_name, TString header)
 	gDirectory->Add(ghist3);
 	gDirectory->Add(ghist4);
 	gDirectory->Add(t);
-	//gPad->SaveAs(plot_name);
+	gPad->SaveAs(plot_name);
 }
 
 /*float calculateVelocities(TH2F hist){
