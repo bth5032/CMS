@@ -1,14 +1,15 @@
 ## This file will submit the IO test to condor to run on 
-## the cabnet-7-7-* machines. It simply runs the script 
-## data_generator.sh on the machines.
+## the cabnet-7-7-* machines. It essentially runs the script 
+## data_generator.sh on the machines for processes that land
+## on slot 33, and sleeps for 10 minutes on other slots.
 
 universe = grid
 grid_resource = condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619
 x509userproxy = /tmp/x509up_u31589
 
 output = out.$(Process)
-#error  = err.$(Process)
-#log    = log.$(Process)
+error  = err.$(Process)
+log    = log.$(Process)
 
 executable = submit_file.sh
 #arguments  = 
