@@ -17,7 +17,7 @@
 
 const short MaxNN = 6;
 */
-void make_histograms(TString data_file, TString plot_name, TString header)
+void make_scatterplot(TString data_file, TString plot_name, TString header)
 {
 	//TApplication program = new TRInt(); 
 	//pull in data

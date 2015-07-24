@@ -1,0 +1,67 @@
+root     12555 98.6  0.0   4052   420 ?        R    Jul22 1479:01 /nfs-7/t2tas/drop_cache
+xrootd   29362  0.0  0.0   9232  1032 pts/0    Ss+  14:47   0:00 bash -c ( ps aux | grep drop_cache )
+xrootd   29363  0.0  0.0   9232   384 pts/0    S+   14:47   0:00 bash -c ( ps aux | grep drop_cache )
+xrootd   29365  0.0  0.0   6392   724 pts/0    S+   14:47   0:00 grep drop_cache
+cabinet-7-7-0.t2.ucsd.edu
+xrootd   11502  0.0  0.0   9232  1032 pts/1    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   11503  0.0  0.0   9232   480 pts/1    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   11506  0.0  0.0   6388   688 pts/1    S+   14:49   0:00 grep drop_cache
+root     24287 97.7  0.0   4052   424 ?        R    14:31  17:27 /nfs-7/t2tas/drop_cache
+cabinet-7-7-10.t2.ucsd.edu
+xrootd     932  0.0  0.0   9232  1032 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd     933  0.0  0.0   9232   480 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd     936  0.0  0.0   6388   688 pts/0    S+   14:49   0:00 grep drop_cache
+root      4650 99.0  0.0   4052   420 ?        R    Jul22 1426:48 /nfs-7/t2tas/drop_cache
+cabinet-7-7-11.t2.ucsd.edu
+root     11402 98.4  0.0   4052   424 ?        R    13:49  58:15 /nfs-7/t2tas/drop_cache
+xrootd   32270  1.0  0.0   9232  1032 pts/2    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   32271  0.0  0.0   9232   480 pts/2    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   32274  0.0  0.0   6392   728 pts/2    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-16.t2.ucsd.edu
+root      8078 98.8  0.0   4052   424 ?        R    12:58 109:14 /nfs-7/t2tas/drop_cache
+xrootd   12649  0.0  0.0   9232  1032 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   12654  0.0  0.0   9232   484 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   12659  0.0  0.0   6392   728 pts/0    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-17.t2.ucsd.edu
+xrootd   27360  1.0  0.0   9232  1032 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   27361  0.0  0.0   9232   480 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   27364  0.0  0.0   6388   692 pts/0    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-19.t2.ucsd.edu
+xrootd   14107  1.0  0.0   9232  1032 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   14108  0.0  0.0   9232   480 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   14111  0.0  0.0   6388   688 pts/0    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-3.t2.ucsd.edu
+root     12190 96.3  0.0   4052   424 ?        R    12:30 133:17 /nfs-7/t2tas/drop_cache
+xrootd   14776  1.0  0.0   9232  1036 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   14780  0.0  0.0   9232   484 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   14784  0.0  0.0   6392   724 pts/0    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-4.t2.ucsd.edu
+root      8959 98.0  0.0   4052   424 ?        R    Jul22 1228:24 /nfs-7/t2tas/drop_cache
+xrootd   23880  0.0  0.0   9232  1032 pts/1    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   23881  0.0  0.0   9232   480 pts/1    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   23884  0.0  0.0   6392   724 pts/1    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-5.t2.ucsd.edu
+root      1524 96.0  0.0   4052   420 ?        R    13:26  79:24 /nfs-7/t2tas/drop_cache
+xrootd   11213  0.0  0.0   9232  1028 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   11214  0.0  0.0   9232   476 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   11217  0.0  0.0   6392   724 pts/0    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-6.t2.ucsd.edu
+root      1959 99.2  0.0   4052   424 ?        R    13:06 102:08 /nfs-7/t2tas/drop_cache
+xrootd   19180  0.0  0.0   9232  1036 pts/2    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   19181  0.0  0.0   9232   484 pts/2    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   19184  0.0  0.0   6392   724 pts/2    S+   14:49   0:00 grep drop_cache
+cabinet-7-7-7.t2.ucsd.edu
+xrootd   10185  0.0  0.0   9232  1032 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   10186  0.0  0.0   9232   480 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   10189  0.0  0.0   6388   688 pts/0    S+   14:49   0:00 grep drop_cache
+root     24802 99.2  0.0   4052   424 ?        R    Jul22 1489:51 /nfs-7/t2tas/drop_cache
+cabinet-7-7-8.t2.ucsd.edu
+xrootd    4663  0.0  0.0   9232  1028 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd    4664  0.0  0.0   9232   476 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd    4667  0.0  0.0   6388   692 pts/0    S+   14:49   0:00 grep drop_cache
+root     29238 98.5  0.0   4052   420 ?        R    Jul22 1068:01 /nfs-7/t2tas/drop_cache
+cabinet-7-7-9.t2.ucsd.edu
+root     12555 98.6  0.0   4052   420 ?        R    Jul22 1480:50 /nfs-7/t2tas/drop_cache
+xrootd   32038  0.0  0.0   9232  1036 pts/0    Ss+  14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   32040  0.0  0.0   9232   484 pts/0    S+   14:49   0:00 bash -c ( uname -n && ps aux | grep drop_cache )
+xrootd   32043  0.0  0.0   6392   728 pts/0    S+   14:49   0:00 grep drop_cache
