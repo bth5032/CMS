@@ -1,0 +1,7 @@
+This run is the same as run 2, but we're simply echoing the commands 
+that should be run on the remote machines instead of trying to run them in
+order to test whether the scripts are being run. In Run 2, nothing was output
+to the output files from the "reader" program. I am curious as to whether 
+standard output isn't what gets output to "out.*" or whether if you
+have another program that has output whether there is some sort of specific
+command you must give it to get its output in your files. 

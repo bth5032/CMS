@@ -1,0 +1,11 @@
+Run 1 -- Print "This one will run" if slot is 33, sleep for 10 mins otherwise.
+Run 2 -- Forgot to write documentation on this run
+Run 3 -- Ran test under normal conditions, drop_cache had permission issues 
+Run 4 -- First real production test. Had some error though, the jobs held 
+         and took too long to finish (12 hour proxy expired)
+Run 5 -- Retry of run 4 with 48 hour proxy. (expired again!!)
+Run 6 -- Retry of run 5, which again expired with a 2 week proxy. Also now
+	 we copy the standard output to two temp files on the condor worker
+	 nodes. /tmp/BobaksReadTestOutput holds the output from the slot 33
+	 process, and /tmp/BobaksIgnoredOutput holds the output for the rest
+	 of the slots.

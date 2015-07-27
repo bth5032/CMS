@@ -1,0 +1,32 @@
+  562  cd condor-test/
+  586  mkdir condor_test
+  587  cd condor_test/
+  594  cd ~matevz/condor-test/
+  597  cp t1.sub ~/condor_test/
+  598  cd ~/condor_test/
+  612  cd ~/condor_test/
+  618  condor_submit t1.sub 
+  619  condor_status
+  620  condor_q
+  621  condor_q -u bhashemi
+  622  condor_q --help
+  623  condor_q -submitter bhashemi
+  624  condor_q bhashemi
+  634  cd condor_test/
+  650  condor_history 
+  651  condor_history | tail -n 1000
+  653  cd condor_test/
+  671  condor_submit t1.sub 
+  672  condor_q bhashemi
+  673  condor_q
+  674  condor_history 
+  676  condor_history 
+  677  condor_history | less
+  680  condor_q
+  681  condor_q -held 13766
+  682  condor_q -held 13553
+  746  cd condor_test/
+  761  history | grep condor_submit
+  762  condor_submit t1.sub 
+  763  condor_q 
+  764  history | grep condor > condor_command_hist.bak

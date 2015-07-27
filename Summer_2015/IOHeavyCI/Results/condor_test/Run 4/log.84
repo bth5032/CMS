@@ -1,0 +1,125 @@
+000 (14558.084.000) 07/17 14:41:29 Job submitted from host: <169.228.130.51:9615?sock=24201_37a9_3>
+...
+028 (14558.084.000) 07/17 14:41:29 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 84
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-07-17T14:41:29"
+TriggerEventTypeName = "ULOG_SUBMIT"
+SubmitHost = "<169.228.130.51:9615?sock=24201_37a9_3>"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 0
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "SubmitEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 14558
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+027 (14558.084.000) 07/17 14:41:52 Job submitted to grid resource
+    GridResource: condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619
+    GridJobId: condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619 1271476.0
+...
+028 (14558.084.000) 07/17 14:41:52 Job ad information event triggered.
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+Proc = 84
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-07-17T14:41:52"
+TriggerEventTypeName = "ULOG_GRID_SUBMIT"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+GridResource = "condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619"
+TriggerEventTypeNumber = 27
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "GridSubmitEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 14558
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+GridJobId = "condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619 1271476.0"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+001 (14558.084.000) 07/17 14:44:00 Job executing on host: condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619
+...
+028 (14558.084.000) 07/17 14:44:00 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 84
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-07-17T14:44:00"
+TriggerEventTypeName = "ULOG_EXECUTE"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 1
+ExecuteHost = "condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "ExecuteEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 14558
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+005 (14558.084.000) 07/17 14:48:30 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+028 (14558.084.000) 07/17 14:48:30 Job ad information event triggered.
+SentBytes = 0.0
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+TerminatedNormally = true
+ReturnValue = 0
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+EventTypeNumber = 28
+Subproc = 0
+ReceivedBytes = 0.0
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+MyType = "JobTerminatedEvent"
+TriggerEventTypeName = "ULOG_JOB_TERMINATED"
+TotalRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 84
+EventTime = "2015-07-17T14:48:30"
+TotalSentBytes = 0.0
+TriggerEventTypeNumber = 5
+CurrentTime = time()
+TotalLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+Cluster = 14558
+RunLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+RunRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+TotalReceivedBytes = 0.0
+...
