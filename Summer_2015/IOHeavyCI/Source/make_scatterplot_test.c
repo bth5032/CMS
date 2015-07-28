@@ -17,13 +17,23 @@
 
 const short MaxNN = 6;
 */
-void make_scatterplot(TString data_file, TString plot_name, TString header)
+
+#include <stdio.h>
+
+const int BLIST[8] = {1024,2048,4096,8192,16384,32768,65536,131072};
+const int YPOS[8] = {35,152,30,147,35,152,30,147};
+void make_scatterplot_test(TString data_file, TString plot_name, TString header)
 {
 	//TApplication program = new TRInt(); 
 	//pull in data
 	TTree *t = new TTree(); 
 	t->ReadFile(data_file);
 	t->SetName("t");
+	
+	//Vars for painting labels
+	float sum = 0;
+	char *print_sum = (char *) malloc(30);
+	
 	
 	//TString name = "run2.png";
 	TCanvas *BG = new TCanvas("c1", "Read Velocity on Local Disk for CMS3 Files", 1920, 1080);
@@ -35,7 +45,7 @@ void make_scatterplot(TString data_file, TString plot_name, TString header)
 	//In first slot have Time vs. Buffer for 1 Concurrent Read
 	c->cd(1);
 	int n1 = t->Draw("VelocityMBps:BufferSize", "ConcurrentReads==1", "goff");
-	TGraph *ghist1 = new TGraph(n1, t->GetV2(), t->GetV1());
+	TGraph *ghist1 = new TGraph(n1, t->GetV2(), t->GetV1());	
 	ghist1->SetName("ghist1");
 	ghist1->SetMarkerStyle(3);
 	ghist1->SetMarkerColor(1);
@@ -48,7 +58,6 @@ void make_scatterplot(TString data_file, TString plot_name, TString header)
 	c->cd(2);
 	int n2 = t->Draw("VelocityMBps:BufferSize", "ConcurrentReads==3", "goff");
 	TGraph *ghist2 = new TGraph(n2, t->GetV2(), t->GetV1());
-	Double_t DP2x[n2], DP2y[n2];
 	ghist2->SetName("ghist2");
 	ghist2->SetMarkerStyle(3);
 	ghist2->SetMarkerColor(1);
@@ -61,7 +70,6 @@ void make_scatterplot(TString data_file, TString plot_name, TString header)
 	c->cd(3);
 	int n3 = t->Draw("VelocityMBps:BufferSize", "ConcurrentReads==6", "goff");
 	TGraph *ghist3 = new TGraph(n3, t->GetV2(), t->GetV1());
-	Double_t DP3x[n3], DP3y[n3];
 	ghist3->SetName("ghist3");
 	ghist3->SetMarkerStyle(3);
 	ghist3->SetMarkerColor(1);
@@ -83,6 +91,117 @@ void make_scatterplot(TString data_file, TString plot_name, TString header)
 	ghist4->Draw("ap");
 	
 	//Draw to screen
+	
+	//Draw sums:
+	c->cd(1);
+	double DP1x[n1];
+	double DP1y[n1];
+	
+	for(int j=0; j<8;j++)
+	{	
+		//int x_loc = 0;
+		for(int i=0; i<n1;i++)
+		{
+			ghist1->GetPoint(i, DP1x[i], DP1y[i]);
+			
+			if (BLIST[j] == DP1x[i])
+			{
+				sum = sum + DP1y[i];
+			}		
+		}
+		//cout<<"Sum of Buffer Size "<<BLIST[j]<<" is "<<sum<<"\n";
+		sprintf(print_sum, "%.0f", sum);
+		TText *sum_text = new TText(0,0,print_sum);	
+		sum_text->SetNDC(0);	
+      	sum_text->SetTextSize(.05);
+		sum_text->SetX(BLIST[j]);
+		sum_text->SetY(YPOS[j]);
+      	sum_text->Draw();
+		sum=0;
+	}
+	
+	c->cd(2);
+	double DP2x[n2];
+	double DP2y[n2];
+	
+	for(int j=0; j<8;j++)
+	{	
+		//int x_loc = 0;
+		for(int i=0; i<n2;i++)
+		{
+			ghist1->GetPoint(i, DP2x[i], DP2y[i]);
+			
+			if (BLIST[j] == DP2x[i])
+			{
+				sum = sum + DP2y[i];
+			}		
+		}
+		//cout<<"Sum of Buffer Size "<<BLIST[j]<<" is "<<sum<<"\n";
+		sprintf(print_sum, "%.0f", sum);
+		TText *sum_text = new TText(0,0,print_sum);	
+		sum_text->SetNDC(0);	
+      	sum_text->SetTextSize(.05);
+		sum_text->SetX(BLIST[j]);
+		sum_text->SetY(YPOS[j]);
+      	sum_text->Draw();
+		sum=0;
+	}
+	
+	c->cd(3);
+	double DP3x[n3];
+	double DP3y[n3];
+	
+	for(int j=0; j<8;j++)
+	{	
+		//int x_loc = 0;
+		for(int i=0; i<n3;i++)
+		{
+			ghist1->GetPoint(i, DP3x[i], DP3y[i]);
+			
+			if (BLIST[j] == DP3x[i])
+			{
+				sum = sum + DP3y[i];
+			}		
+		}
+		//cout<<"Sum of Buffer Size "<<BLIST[j]<<" is "<<sum<<"\n";
+		sprintf(print_sum, "%.0f", sum);
+		TText *sum_text = new TText(0,0,print_sum);	
+		sum_text->SetNDC(0);	
+      	sum_text->SetTextSize(.05);
+		sum_text->SetX(BLIST[j]);
+		sum_text->SetY(YPOS[j]);
+      	sum_text->Draw();
+		sum=0;
+	}
+	
+	c->cd(4);
+	double DP4x[n4];
+	double DP4y[n4];
+	
+	for(int j=0; j<8;j++)
+	{	
+		//int x_loc = 0;
+		for(int i=0; i<n4;i++)
+		{
+			ghist1->GetPoint(i, DP4x[i], DP4y[i]);
+			
+			if (BLIST[j] == DP4x[i])
+			{
+				sum = sum + DP4y[i];
+			}		
+		}
+		//cout<<"Sum of Buffer Size "<<BLIST[j]<<" is "<<sum<<"\n";
+		sprintf(print_sum, "%.0f", sum);
+		TText *sum_text = new TText(0,0,print_sum);	
+		sum_text->SetNDC(0);	
+      	sum_text->SetTextSize(.05);
+		sum_text->SetX(BLIST[j]);
+		sum_text->SetY(YPOS[j]);
+      	sum_text->Draw();
+		sum=0;
+	}
+	//c->Draw();
+	
 	//Initialize Canvas
 	
 	c->cd(0);
