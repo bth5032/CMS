@@ -1,6 +1,6 @@
 // This program is a root script which generates 
-// histograms from the data files created by running 
-// data_generator.sh on UAF-4.t2.ucsd.edu
+// plots from the data files created by running 
+// data_generator.sh
 // It was written on June 26 2105 by Bobak Hashemi 
 // using the liberal assistance of Matevz Tadel
 //
@@ -22,7 +22,7 @@ const short MaxNN = 6;
 
 const int BLIST[8] = {1024,2048,4096,8192,16384,32768,65536,131072};
 const int YPOS[8] = {35,152,30,147,35,152,30,147};
-void make_scatterplot_test(TString data_file, TString plot_name, TString header)
+void make_plots_with_sums(TString data_file, TString plot_name, TString header)
 {
 	//TApplication program = new TRInt(); 
 	//pull in data
