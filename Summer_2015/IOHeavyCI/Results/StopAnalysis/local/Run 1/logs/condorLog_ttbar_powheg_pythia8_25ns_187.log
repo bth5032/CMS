@@ -1,0 +1,348 @@
+000 (15858.000.000) 08/11 12:20:57 Job submitted from host: <169.228.130.51:9615?sock=24201_37a9_3>
+...
+028 (15858.000.000) 08/11 12:20:57 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-11T12:20:57"
+TriggerEventTypeName = "ULOG_SUBMIT"
+SubmitHost = "<169.228.130.51:9615?sock=24201_37a9_3>"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 0
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "SubmitEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 15858
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+012 (15858.000.000) 08/11 12:22:36 Job was held.
+	Error connecting to schedd cmssubmit-r1.t2.ucsd.edu: SECMAN:2007:could not receive post_auth_info.|AUTHENTICATE:1004:Failed to authenticate using FS
+	Code 0 Subcode 0
+...
+028 (15858.000.000) 08/11 12:22:36 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+EventTypeNumber = 28
+Subproc = 0
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+MyType = "JobHeldEvent"
+TriggerEventTypeName = "ULOG_JOB_HELD"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+EventTime = "2015-08-11T12:22:36"
+TriggerEventTypeNumber = 12
+HoldReason = "Error connecting to schedd cmssubmit-r1.t2.ucsd.edu: SECMAN:2007:could not receive post_auth_info.|AUTHENTICATE:1004:Failed to authenticate using FS"
+CurrentTime = time()
+HoldReasonCode = 0
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+Cluster = 15858
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+HoldReasonSubCode = 0
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+...
+009 (15858.000.000) 08/11 14:45:19 Job was aborted by the user.
+	via condor_rm (by user bhashemi)
+...
+028 (15858.000.000) 08/11 14:45:19 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-11T14:45:19"
+TriggerEventTypeName = "ULOG_JOB_ABORTED"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 9
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "JobAbortedEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 15858
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+Reason = "via condor_rm (by user bhashemi)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+000 (16058.000.000) 08/11 14:50:23 Job submitted from host: <169.228.130.51:9615?sock=24201_37a9_3>
+...
+028 (16058.000.000) 08/11 14:50:23 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-11T14:50:23"
+TriggerEventTypeName = "ULOG_SUBMIT"
+SubmitHost = "<169.228.130.51:9615?sock=24201_37a9_3>"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 0
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "SubmitEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 16058
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+012 (16058.000.000) 08/11 14:51:24 Job was held.
+	Error connecting to schedd cmssubmit-r1.t2.ucsd.edu: SECMAN:2007:could not receive post_auth_info.|AUTHENTICATE:1004:Failed to authenticate using FS
+	Code 0 Subcode 0
+...
+028 (16058.000.000) 08/11 14:51:24 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+EventTypeNumber = 28
+Subproc = 0
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+MyType = "JobHeldEvent"
+TriggerEventTypeName = "ULOG_JOB_HELD"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+EventTime = "2015-08-11T14:51:24"
+TriggerEventTypeNumber = 12
+HoldReason = "Error connecting to schedd cmssubmit-r1.t2.ucsd.edu: SECMAN:2007:could not receive post_auth_info.|AUTHENTICATE:1004:Failed to authenticate using FS"
+CurrentTime = time()
+HoldReasonCode = 0
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+Cluster = 16058
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+HoldReasonSubCode = 0
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+...
+009 (16058.000.000) 08/11 15:02:46 Job was aborted by the user.
+	via condor_rm (by user bhashemi)
+...
+028 (16058.000.000) 08/11 15:02:46 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-11T15:02:46"
+TriggerEventTypeName = "ULOG_JOB_ABORTED"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 9
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "JobAbortedEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 16058
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+Reason = "via condor_rm (by user bhashemi)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+000 (16172.000.000) 08/11 15:02:54 Job submitted from host: <169.228.130.51:9615?sock=24201_37a9_3>
+...
+028 (16172.000.000) 08/11 15:02:54 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-11T15:02:54"
+TriggerEventTypeName = "ULOG_SUBMIT"
+SubmitHost = "<169.228.130.51:9615?sock=24201_37a9_3>"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 0
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "SubmitEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 16172
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+012 (16172.000.000) 08/11 15:03:41 Job was held.
+	Error connecting to schedd cmssubmit-r1.t2.ucsd.edu: SECMAN:2007:could not receive post_auth_info.|AUTHENTICATE:1004:Failed to authenticate using FS
+	Code 0 Subcode 0
+...
+028 (16172.000.000) 08/11 15:03:41 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+EventTypeNumber = 28
+Subproc = 0
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+MyType = "JobHeldEvent"
+TriggerEventTypeName = "ULOG_JOB_HELD"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+EventTime = "2015-08-11T15:03:41"
+TriggerEventTypeNumber = 12
+HoldReason = "Error connecting to schedd cmssubmit-r1.t2.ucsd.edu: SECMAN:2007:could not receive post_auth_info.|AUTHENTICATE:1004:Failed to authenticate using FS"
+CurrentTime = time()
+HoldReasonCode = 0
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+Cluster = 16172
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+HoldReasonSubCode = 0
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+...
+009 (16172.000.000) 08/12 10:31:24 Job was aborted by the user.
+	via condor_rm (by user bhashemi)
+...
+028 (16172.000.000) 08/12 10:31:24 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-12T10:31:24"
+TriggerEventTypeName = "ULOG_JOB_ABORTED"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 9
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "JobAbortedEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 16172
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+Reason = "via condor_rm (by user bhashemi)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+000 (16541.000.000) 08/12 10:36:21 Job submitted from host: <169.228.130.51:9615?sock=24201_37a9_3>
+...
+028 (16541.000.000) 08/12 10:36:21 Job ad information event triggered.
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-12T10:36:21"
+TriggerEventTypeName = "ULOG_SUBMIT"
+SubmitHost = "<169.228.130.51:9615?sock=24201_37a9_3>"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+TriggerEventTypeNumber = 0
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "SubmitEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 16541
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+027 (16541.000.000) 08/12 10:36:30 Job submitted to grid resource
+    GridResource: condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619
+    GridJobId: condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619 1385657.0
+...
+028 (16541.000.000) 08/12 10:36:30 Job ad information event triggered.
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+Proc = 0
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+EventTime = "2015-08-12T10:36:30"
+TriggerEventTypeName = "ULOG_GRID_SUBMIT"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+GridResource = "condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619"
+TriggerEventTypeNumber = 27
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+MyType = "GridSubmitEvent"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+Cluster = 16541
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+GridJobId = "condor osg-gw-4.t2.ucsd.edu osg-gw-4.t2.ucsd.edu:9619 1385657.0"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+Subproc = 0
+EventTypeNumber = 28
+CurrentTime = time()
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+...
+005 (16541.000.000) 08/12 21:08:54 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+028 (16541.000.000) 08/12 21:08:54 Job ad information event triggered.
+SentBytes = 0.0
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+TerminatedNormally = true
+ReturnValue = 1
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+EventTypeNumber = 28
+Subproc = 0
+ReceivedBytes = 0.0
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+MyType = "JobTerminatedEvent"
+TriggerEventTypeName = "ULOG_JOB_TERMINATED"
+TotalRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+Proc = 0
+EventTime = "2015-08-12T21:08:54"
+TotalSentBytes = 0.0
+TriggerEventTypeNumber = 5
+CurrentTime = time()
+TotalLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+Cluster = 16541
+RunLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+RunRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+TotalReceivedBytes = 0.0
+...

@@ -1,0 +1,18 @@
+/data1/condor_local/execute/dir_23897/condor_exec.exe: line 49: cd: CORE/: No such file or directory
+make: *** No rule to make target `clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+/data1/condor_local/execute/dir_23897/condor_exec.exe: line 64: cd: StopAnalysis/StopBabyMaker/stop_variables/: No such file or directory
+make: *** No rule to make target `clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No rule to make target `clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+/data1/condor_local/execute/dir_23897/condor_exec.exe: line 74: ./runBabyMaker: No such file or directory
+ls: cannot access /data1/condor_local/execute/dir_23897/forCondor_stopBabyMaker_74x/ttbar_powheg_pythia8_25ns_186.root: No such file or directory
+ls: cannot access ttbar_powheg_pythia8_25ns_186.root: No such file or directory
+[WARNING] specified VO and proxy VO are different!
+Using grid catalog type: UNKNOWN
+Using grid catalog : (null)
+VO name: cms
+Checksum type: None
+file:/data1/condor_local/execute/dir_23897/forCondor_stopBabyMaker_74x/ttbar_powheg_pythia8_25ns_186.root: zero number of replicas
+lcg_cp: Invalid argument

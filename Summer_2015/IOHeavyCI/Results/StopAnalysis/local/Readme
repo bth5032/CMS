@@ -1,0 +1,3 @@
+Run 1 -- Tried to naively change the location of the files in the code to in /data3/xrootd/SABM. However, many errors seem to have been thrown. It seems like the 
+	 program attempts to find the sample files on the submitting machine before they are submitted to condor. For me that was UAF-4, which of course does not
+	 have the files on there.
