@@ -1,0 +1,55 @@
+Davismt2.cc: In member function 'int Davismt2::nsols_massless(double)':
+Davismt2.cc:297:15: warning: variable 'A0sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+               ^
+Davismt2.cc:297:21: warning: variable 'A1sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                     ^
+Davismt2.cc:297:27: warning: variable 'A2sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                           ^
+Davismt2.cc:297:39: warning: variable 'A4sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                                       ^
+Davismt2.cc: In member function 'int Davismt2::scan_high(double&)':
+Davismt2.cc:531:9: warning: variable 'Deltasq_low' set but not used [-Wunused-but-set-variable]
+  double Deltasq_low;
+         ^
+Davismt2.cc: In member function 'int Davismt2::nsols(double)':
+Davismt2.cc:598:15: warning: variable 'A0sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+               ^
+Davismt2.cc:598:21: warning: variable 'A1sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                     ^
+Davismt2.cc:598:27: warning: variable 'A2sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                           ^
+Davismt2.cc:598:39: warning: variable 'A4sq' set but not used [-Wunused-but-set-variable]
+  long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                                       ^
+mt2w_bisect.cpp: In member function 'int mt2w_bisect::mt2w::teco(double)':
+mt2w_bisect.cpp:314:17: warning: variable 'A0sq' set but not used [-Wunused-but-set-variable]
+    long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                 ^
+mt2w_bisect.cpp:314:23: warning: variable 'A1sq' set but not used [-Wunused-but-set-variable]
+    long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                       ^
+mt2w_bisect.cpp:314:29: warning: variable 'A2sq' set but not used [-Wunused-but-set-variable]
+    long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                             ^
+mt2w_bisect.cpp:314:41: warning: variable 'A4sq' set but not used [-Wunused-but-set-variable]
+    long  double A0sq, A1sq, A2sq, A3sq, A4sq;
+                                         ^
+looper.C:15:18: fatal error: CMS3.h: No such file or directory
+ #include "CMS3.h"
+                  ^
+compilation terminated.
+make: *** [looper.o] Error 1
+/data1/condor_local/execute/dir_29703/condor_exec.exe: line 74: ./runBabyMaker: No such file or directory
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+ls: cannot access /data1/condor_local/execute/dir_29703/forCondor_stopBabyMaker_74x/CMSSW_7_4_1_patch1/src/StopAnalysis/StopBabyMaker/ttbar_powheg_pythia8_25ns_98.root: No such file or directory
+ls: cannot access ttbar_powheg_pythia8_25ns_98.root: No such file or directory
