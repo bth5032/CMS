@@ -1,3 +1,5 @@
-Run 1 -- Tried to naively change the location of the files in the code to in /data3/xrootd/SABM. However, many errors seem to have been thrown. It seems like the 
-	 program attempts to find the sample files on the submitting machine before they are submitted to condor. For me that was UAF-4, which of course does not
-	 have the files on there.
+Run 1 -- Tried to naively change the location of the files in the code to in /data3/xrootd/SABM. However, many errors seem to have been thrown. It seems like the program attempts to find the sample files on the submitting machine before they are submitted to condor. For me that was UAF-4, which of course does not have the files on there.
+
+Run 6 -- This was the first run without errors on of the local read. The time for completion was about 33 minutes. I changed the code here to not actually send the completed babies back to the submitting computer to work around not having a CMS VO proxy.
+
+Run 7 -- This was a follow up run to Run 6 just to verify the timing, it also returned in approximately 33 minutes. 

@@ -1,2 +1,3 @@
-Run 1 -- There seems to have been many errors here. Additionally, I began a run of the augumented code right afterwards and I believe that might have caused some trouble
-		 with the outputs being overwritten. This test will need to be run again most likely.
+Run 1 -- There seems to have been many errors here. Additionally, I began a run of the augumented code right afterwards and I believe that might have caused some trouble with the outputs being overwritten. This test will need to be run again most likely.
+
+Run 2 -- We've changed the code to not actually send the babies back to the submitting computer. This is an unfortunate consequence of not being in the CMS VO at the moment. But the test was a vanilla run making babies for the ttbar_powheg_pythia8_25ns sample set. This test completed in about 13 minutes.
