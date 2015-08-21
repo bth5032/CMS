@@ -3,5 +3,5 @@
 
 for server in `cat ../.list_of_IOSlot_nodes`
 do
-	sh -T $server "bash -s"
+	ssh -T $server 'for i in 3 4 5 6 7 8 9 10 11 12 13 14; do mkdir /data$i/xrootd/SABM/ttbar_powheg_pythia8_25ns; done'
 done
