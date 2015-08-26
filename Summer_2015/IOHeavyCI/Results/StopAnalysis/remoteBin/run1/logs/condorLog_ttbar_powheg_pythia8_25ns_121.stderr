@@ -1,0 +1,6 @@
+/data1/condor_local/execute/dir_217999/condor_exec.exe: line 52: cmsenv: command not found
+Warning in <TTree::Bronch>: Using split mode on a class: TString with a custom Streamer
+
+real	0m4.757s
+user	0m1.297s
+sys	0m0.914s

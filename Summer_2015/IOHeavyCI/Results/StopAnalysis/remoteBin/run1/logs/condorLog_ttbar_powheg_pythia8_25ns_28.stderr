@@ -1,0 +1,70 @@
+/data4/condor_local/execute/dir_26066/condor_exec.exe: line 44: pushd: /cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_1/src/: Input/output error
+********** ERROR: Missing Release top ************
+  The release area "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw-patch/CMSSW_7_4_1_patch1"
+  for "CMSSW" version "CMSSW_7_4_1_patch1" is not available/usable.
+  In case this release has been deprecated, you can move your code to
+  one of the following release(s) of release series "CMSSW_7_4".
+
+  CMSSW_7_4_0_pre1
+  CMSSW_7_4_0_pre2
+  CMSSW_7_4_0_pre2_ROOT6
+  CMSSW_7_4_0_pre3
+  CMSSW_7_4_0_pre3_ROOT6
+  CMSSW_7_4_0_pre4_ROOT6
+  CMSSW_7_4_0_pre5
+  CMSSW_7_4_0_pre5_ROOT6
+  CMSSW_7_4_0_pre6
+  CMSSW_7_4_0_pre6_ROOT6
+  CMSSW_7_4_0_pre7_ROOT6
+  CMSSW_7_4_0_pre7
+  CMSSW_7_4_0_pre8
+  CMSSW_7_4_0_pre8_ROOT6
+  CMSSW_7_4_0_pre9
+  CMSSW_7_4_0_pre9_ROOT6
+  CMSSW_7_4_0
+  CMSSW_7_4_0_patch1
+  CMSSW_7_4_1
+  CMSSW_7_4_1_ROOT5
+  CMSSW_7_4_2
+  CMSSW_7_4_2_patch1
+  CMSSW_7_4_3
+  CMSSW_7_4_3_patch1
+  CMSSW_7_4_4
+  CMSSW_7_4_4_ROOT5
+  CMSSW_7_4_4_patch1
+  CMSSW_7_4_4_patch2
+  CMSSW_7_4_4_patch3
+  CMSSW_7_4_4_patch4
+  CMSSW_7_4_1_patch2
+  CMSSW_7_4_5
+  CMSSW_7_4_5_ROOT5
+  CMSSW_7_4_1_patch3
+  CMSSW_7_4_6
+  CMSSW_7_4_1_patch4
+  CMSSW_7_4_5_patch1
+  CMSSW_7_4_6_patch1
+  CMSSW_7_4_6_patch2
+  CMSSW_7_4_6_patch3
+  CMSSW_7_4_6_patch4
+  CMSSW_7_4_6_patch5
+  CMSSW_7_4_6_patch6
+  CMSSW_7_4_7
+  CMSSW_7_4_7_patch1
+  CMSSW_7_4_7_patch2
+  CMSSW_7_4_8
+  CMSSW_7_4_8_patch1
+  CMSSW_7_4_9
+  CMSSW_7_4_9_patch1
+  CMSSW_7_4_10
+  CMSSW_7_4_10_patch1
+***********************************************
+Cannot parse "setup" - file /home/users/bhashemi/GIT/stop1l/CMSSW_7_4_1_patch1/config/Self.xml not known
+/data4/condor_local/execute/dir_26066/condor_exec.exe: line 46: popd: directory stack empty
+/data4/condor_local/execute/dir_26066/condor_exec.exe: line 52: cmsenv: command not found
+ln: creating symbolic link `json_files': No space left on device
+/nfs-7/t2tas/Software/StopAnalysisCMSSW/src/StopAnalysis/StopBabyMaker//runBabyMaker: error while loading shared libraries: libGui.so: cannot open shared object file: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+ls: cannot access /data4/condor_local/execute/dir_26066/forCondor_stopBabyMaker_74x/CMSSW_7_4_1_patch1/src/ttbar_powheg_pythia8_25ns_28.root: No such file or directory
